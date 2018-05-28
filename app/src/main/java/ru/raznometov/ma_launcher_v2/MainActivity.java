@@ -212,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onKeyUp(int keyCode, KeyEvent event) // просто перехватываем
+    public boolean onKeyUp(int keyCode, KeyEvent event) // просто перехватываем и ничего не делаем
     {
         Log.i(TAG, String.valueOf(keyCode));
         if (keyCode == 4) // на часах от Kingwear кейкод 4
